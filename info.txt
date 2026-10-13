@@ -1,0 +1,60 @@
+Machine learning steps:-
+6
+- valid data source
+-Exploratory Data analysis
+    - Data cleaning(NULL,duplicates,wrong formats)
+    -Standardization 
+    -Analysis : Distribution ,Correlation,Graphs
+-Choose Right machine learning model for the problem 
+-Vectorization  or factorization of the data
+-training the data to the model
+- testing or validation of the model
+-Fine tuning the model 
+
+
+
+location
+    original-lables_location  Location
+Delhi                     5           144
+Gurugram                  7           127
+Indore                    1           133
+Jaipur                    0           133
+Kanpur                    3           147
+Lucknow                   2           138
+Noida                     6           156
+Prayagraj                 4           146
+Name: Location, dtype: int64
+  
+  Street_type
+original-lables_Street_Tpye  Street_Type
+Corner Plot                  1              212
+Gated Society                4              212
+Highway Facing               2              242
+Main Road                    3              229
+Residential Lane             0              229
+Name: Street_Type, dtype: int64
+
+ Furnishing 
+
+original-lables_Furnishing  Furnishing
+Furnished                   0             379
+Semi-Furnished              2             451
+Unfurnished                 1             261
+Name: Furnishing, dtype: int64
+
+  Property_Type
+
+original-lables_Property_Type  Property_Type
+Apartment                      0                536
+Duplex                         1                155
+Independent House              3                324
+Villa                          2                109
+Name: Location, dtype: int64
+
+Has_Pool
+
+
+original-lables_Has_Pool  Has_Pool
+No                        0           827
+Yes                       1           297
+Name: Has_Pool, dtype: int64
